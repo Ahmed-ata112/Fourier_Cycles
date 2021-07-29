@@ -12,7 +12,7 @@ class FourierVis(VMobject):
         self.K = num_coeffs
         self.rate = .1 * rate * self.N
         self.circles = VGroup()
-        self.vectors = VGroup()
+        self.Arrows = VGroup()
 
         # Create Back Path
         self._create_background()
@@ -55,7 +55,7 @@ class FourierVis(VMobject):
                 lambda mobj, dt: mobj.move_to(mobj.previous()).rotate(mobj.speed * dt * self.rate))
             self.cycles.add(cycle)
             self.circles.add(cycle["circle"])
-            self.vectors.add(cycle["arrow"])
+            self.Arrows.add(cycle["arrow"])
         self.add(self.cycles)
         return self
 
