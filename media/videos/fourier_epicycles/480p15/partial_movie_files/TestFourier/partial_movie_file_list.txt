@@ -1,2 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:D:/COURSES/python/code/Forier_Transform/media/videos/fourier_epicycles/480p15/partial_movie_files/TestFourier/3163782288_3829296134_3431549280.mp4'

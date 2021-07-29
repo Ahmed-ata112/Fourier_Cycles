@@ -66,7 +66,7 @@ class FourierVis(VMobject):
         return self
 
 
-class TestFourier(Scene):
+class CreateFourier(Scene):
     def construct(self):
         # get an array of complex points
         N = 100
