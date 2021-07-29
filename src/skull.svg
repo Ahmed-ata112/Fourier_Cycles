@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300mm"
+   height="358.84033mm"
+   viewBox="0 0 300 358.84033"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="rudimentarySkull_bw.svg">
+  <title
+     id="title818">Rudimentary Skull B&amp;W</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.25000001"
+     inkscape:cx="747.58053"
+     inkscape:cy="505.49685"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="878"
+     inkscape:window-x="11"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     gridtolerance="10"
+     showguides="false"
+     inkscape:snap-global="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:pagecheckerboard="true"
+     borderlayer="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Rudimentary Skull B&amp;W</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:date />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Cyanide Cupcake / Jess Weichler</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>CC0 Public Domain</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>halloween</rdf:li>
+            <rdf:li>handdrawn</rdf:li>
+            <rdf:li>skull</rdf:li>
+            <rdf:li>pirate</rdf:li>
+            <rdf:li>outline</rdf:li>
+            <rdf:li>black and white</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description />
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Basic skull drawing.   Originally hand-drawn on paper, then converted to vector in Inkscape.</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-45.620774,60.781974)">
+    <path
+       style="fill:#000000;stroke-width:0.68907803"
+       d="m 162.4944,298.05837 c -16.20666,-5.62505 -18.61507,-27.53616 -19.80091,-42.63079 -2.59554,-21.24616 1.10185,-43.77084 -7.09006,-64.02126 C 122.72108,170.00363 96.343822,164.79939 77.971352,149.63689 62.13992,138.38344 46.866153,122.61379 46.783724,101.88013 41.272315,72.318809 56.408961,44.538113 69.934336,19.439521 78.563395,2.8295456 88.293329,-13.898467 104.82658,-23.875043 c 32.47934,-20.956324 70.14388,-34.533403 108.95736,-36.286717 18.62288,-2.851904 36.56094,4.893719 54.71757,7.784045 14.84918,10.474079 34.51903,15.371197 45.19592,31.349204 16.79524,13.7188105 18.24341,34.584267 17.94534,54.697979 2.62249,28.706713 -4.00659,58.618842 -21.54468,81.847172 -9.46467,17.00003 -3.60069,39.79571 11.7079,51.41036 48.2844,43.7989 8.88748,50.82604 4.7799,63.37274 -20.16077,16.18316 -41.34168,31.30379 -64.56306,42.80745 -12.43524,8.48167 -26.58548,13.29262 -40.81052,17.693 -18.12733,9.94183 -39.27113,6.12136 -58.71791,7.25818 z m 18.85942,-15.07504 c 19.95483,2.15247 36.56231,-13.04653 55.92471,-13.71156 5.9464,-9.68505 19.8263,-2.31325 28.5288,-13.26444 15.13612,-6.22465 22.47112,-21.5503 40.39414,-22.9911 8.85017,-7.53227 21.83962,-19.3484 25.21003,-27.98005 -11.89907,-8.58377 -13.48031,-26.23938 -24.56857,-37.10126 -11.48711,-12.84009 -14.32349,-30.90485 -9.5891,-47.17781 4.28904,-16.39171 13.27399,-30.545833 11.81351,-48.031039 12.6486,-4.556347 3.30849,-21.082507 8.10284,-32.213752 -1.907,-17.194087 -2.27285,-36.682141 -12.027,-51.887777 -11.8686,-18.602177 -33.29685,-27.445942 -54.26564,-30.815019 -14.70966,-7.669738 -30.82295,-7.79174 -46.78818,-9.922665 -19.51847,-8.558681 -24.89471,18.136551 -43.24862,13.589678 -19.35146,0.974185 -35.79915,14.503858 -52.16246,23.694995 -8.49526,16.6599605 -22.988104,28.252358 -34.290242,42.391224 -0.977232,17.487472 -16.1297,31.474098 -12.693664,49.766893 1.228035,17.761382 6.295656,36.459132 20.640242,48.192602 17.289174,18.24339 40.007524,29.91349 59.326944,45.50086 16.30608,13.51715 11.04391,36.07113 17.09697,54.03671 3.2702,14.35101 8.70465,28.72926 8.35872,43.54087 -4.95179,9.23591 7.31196,13.67078 14.23657,14.38264 z m 84.62521,-31.91437 v -2.9e-4 z m -55.84814,-5.26041 c -13.37106,-10.09561 0.87683,-28.96789 -5.01801,-42.6806 3.57082,-19.09527 23.95908,8.98782 19.64446,19.12495 -0.50376,8.28393 -3.98726,23.92191 -14.62645,23.55565 z m 34.0494,-5.82899 c -16.25002,-2.52391 -17.24249,-26.39777 -14.9253,-39.65346 11.8764,-17.43906 16.74928,14.61178 17.59643,23.74159 0.65396,4.84381 3.88412,13.66472 -2.67113,15.91187 z m 26.39835,-13.92407 c -9.65786,-11.81484 -27.43672,-23.08576 -17.16123,-40.99524 13.1814,-16.43592 24.61271,11.45195 23.85737,23.32266 -0.0996,5.60595 1.06376,16.90029 -6.69614,17.67258 z M 155.75358,114.47937 C 142.96773,97.597358 136.11656,73.49932 144.70968,53.371036 149.363,38.030877 174.26415,29.01159 177.00091,50.29632 c 1.03329,16.463986 11.94653,31.450483 9.31017,47.986839 -3.93569,9.316231 -20.85393,23.644361 -30.5575,16.196211 z M 256.46689,80.14274 c -16.01153,2.364558 -16.91219,-8.903789 -23.35239,-17.673172 -8.76267,-11.931567 -0.55864,-30.579959 1.11162,-45.543504 10.18739,-17.50927124 33.41575,3.511667 37.20962,16.925861 7.43175,16.872088 7.62825,42.082525 -14.96885,46.290815 z m -103.84111,107.1291 c -1.59681,0.83027 -1.21533,0.63184 0,0 z"
+       id="path964"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccsccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     transform="translate(-45.620774,60.781974)" />
+</svg>

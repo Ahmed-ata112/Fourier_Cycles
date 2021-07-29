@@ -85,7 +85,7 @@ class CreateFourier(Scene):
             return complex_points
 
         def get_shape_from_svg():
-            fname = r'src\skull.svg'
+            fname = r'src\mNote.svg'
             paths, attributes = svg2paths(fname)
             complex_points = []
             for path, attr in zip(paths, attributes):
@@ -93,37 +93,16 @@ class CreateFourier(Scene):
                 pathLength = path.length()
                 numSamples = int(pathLength * 1)
                 for i in range(numSamples):
-                    # myPathList.append(path.point(path.ilength(pathLength * i / (numSamples - 1))))
                     complex_points.append(path.point(path.ilength(pathLength * i / (numSamples - 1))))
-
 
             return complex_points
 
-        tex = r"$\Lambda$"
-        complex_points = np.array(get_shape_from_svg())
 
+        # tex = r"$\Lambda$"
+        # complex_points = np.array(get_shape_from_Tex(tex))
+        complex_points = np.array(get_shape_from_svg())
         complex_points = (complex_points - np.mean(complex_points)) / np.max(abs(complex_points)) * 4
         sh = FourierVis(complex_points, num_coeffs=50)
         self.add(sh)
-        self.wait(3 * TAU)
+        self.wait(2 * TAU)
 
-
-def get_shape_from_svg():
-    fname = r'src\skull.svg'
-    paths, attributes = svg2paths(fname)
-    print(attributes)
-    myPaths = []
-    for path, attr in zip(paths, attributes):
-        myPathList = []
-        pathLength = path.length()
-        # pathColour = attr['stroke']
-        numSamples = int(pathLength * 1)
-        for i in range(numSamples):
-            # parametric length = ilength(geometric length)
-            myPathList.append(path.point(path.ilength(pathLength * i / (numSamples - 1))))
-            # myPaths.append(np.array(myPathList))
-
-    return myPathList
-
-
-# print(get_shape_from_svg())

@@ -10,9 +10,15 @@
 
 ### Gallery
 
-
+## Latex
 ![gif](assets/Lambda2.gif "Lambda")
 
 ![gif](assets/psi2.gif "Psi")
 
 ![gif](assets/Sigma2.gif "Sigma")
+
+## svg 
+
+Source          |  Rendered gif
+:------------------:|:-------------------------:
+![](src/mNote.svg)  |  ![](assets/mNote.gif)
