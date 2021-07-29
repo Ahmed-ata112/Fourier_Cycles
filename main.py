@@ -1,9 +1,6 @@
 from manim import *
 import numpy as np
-
-import svgpathtools
 from svgpathtools import *
-import regex as re
 
 
 class FourierVis(VMobject):
@@ -81,7 +78,6 @@ class CreateFourier(Scene):
                 path.append_points(sp.get_points())
                 complex_points = np.array(
                     [complex(*path.point_from_proportion(alpha)[:2]) for alpha in np.arange(0, 1, 1 / N)]) * 16
-
             return complex_points
 
         def get_shape_from_svg():
@@ -89,7 +85,6 @@ class CreateFourier(Scene):
             paths, attributes = svg2paths(fname)
             complex_points = []
             for path, attr in zip(paths, attributes):
-                myPathList = []
                 pathLength = path.length()
                 numSamples = int(pathLength * 1)
                 for i in range(numSamples):
