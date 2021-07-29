@@ -10,5 +10,5 @@
 ### Gallery
 
 
-![gif](assests/psi.gif "Psi")
+![gif](assets/psi.gif "Psi")
 

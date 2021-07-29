@@ -70,7 +70,7 @@ class CreateFourier(Scene):
     def construct(self):
         # get an array of complex points
         N = 100
-        tex = r"$\Psi$"
+        tex = r"$\Sigma$"
 
         def get_shape(tex):
             path = VMobject()
