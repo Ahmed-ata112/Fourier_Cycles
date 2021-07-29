@@ -70,7 +70,7 @@ class CreateFourier(Scene):
     def construct(self):
         # get an array of complex points
         N = 100
-        tex = r"$\Sigma$"
+        tex = r"$\Lambda$"
 
         def get_shape(tex):
             path = VMobject()
@@ -81,10 +81,7 @@ class CreateFourier(Scene):
         path = get_shape(tex)
         complex_points = np.array(
             [complex(*path.point_from_proportion(alpha)[:2]) for alpha in np.arange(0, 1, 1 / N)]) * 16
-        # normalize them to fit in scene
-        # complex_points = (complex_points - np.mean(complex_points)) / np.max(abs(complex_points)) * 4
 
-        # create my epicycles
         sh = FourierVis(complex_points, num_coeffs=50)
         self.add(sh)
         self.wait(2 * TAU)

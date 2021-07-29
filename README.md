@@ -12,3 +12,4 @@
 
 ![gif](assets/psi.gif "Psi")
 
+![gif](assets/Sigma.gif "Sigma")
