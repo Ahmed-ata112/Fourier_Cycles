@@ -81,7 +81,7 @@ class CreateFourier(Scene):
             return complex_points
 
         def get_shape_from_svg():
-            fname = r'src\mNote.svg'
+            fname = r'src\star.svg'
             paths, attributes = svg2paths(fname)
             complex_points = []
             for path, attr in zip(paths, attributes):
