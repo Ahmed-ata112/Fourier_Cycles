@@ -11,8 +11,8 @@
 ### Gallery
 
 
-![gif](assets/Lambda.gif "Lambda")
+![gif](assets/Lambda2.gif "Lambda")
 
-![gif](assets/psi.gif "Psi")
+![gif](assets/psi2.gif "Psi")
 
-![gif](assets/Sigma.gif "Sigma")
+![gif](assets/Sigma2.gif "Sigma")

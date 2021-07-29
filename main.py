@@ -70,15 +70,18 @@ class CreateFourier(Scene):
     def construct(self):
         # get an array of complex points
         N = 100
-        tex = r"$\Lambda$"
 
-        def get_shape(tex):
+        def get_shape_from_Tex(tex):
             path = VMobject()
             for sp in Tex(tex).family_members_with_points():
                 path.append_points(sp.get_points())
             return path
 
-        path = get_shape(tex)
+        def get_shape_from_svg():
+            pass
+
+        tex = r"$\Lambda$"
+        path = get_shape_from_Tex(tex)
         complex_points = np.array(
             [complex(*path.point_from_proportion(alpha)[:2]) for alpha in np.arange(0, 1, 1 / N)]) * 16
 
