@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/COURSES/python/code/Forier_Transform/media/videos/Forier_Transform/480p15/partial_movie_files/ApplyMethodExample/3163782288_1425898715_3726560688.mp4'
+file 'file:D:/COURSES/python/code/Forier_Transform/media/videos/Forier_Transform/480p15/partial_movie_files/ApplyMethodExample/607903841_2398200548_1998035248.mp4'
+file 'file:D:/COURSES/python/code/Forier_Transform/media/videos/Forier_Transform/480p15/partial_movie_files/ApplyMethodExample/607903841_2398728343_925640170.mp4'
+file 'file:D:/COURSES/python/code/Forier_Transform/media/videos/Forier_Transform/480p15/partial_movie_files/ApplyMethodExample/607903841_2398200548_1714481100.mp4'

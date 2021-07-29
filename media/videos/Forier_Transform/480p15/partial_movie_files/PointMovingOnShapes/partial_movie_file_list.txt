@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/COURSES/python/code/Forier_Transform/media/videos/Forier_Transform/480p15/partial_movie_files/PointMovingOnShapes/3163782288_3439888448_2777821804.mp4'
+file 'file:D:/COURSES/python/code/Forier_Transform/media/videos/Forier_Transform/480p15/partial_movie_files/PointMovingOnShapes/607903841_4165915157_2929077191.mp4'
+file 'file:D:/COURSES/python/code/Forier_Transform/media/videos/Forier_Transform/480p15/partial_movie_files/PointMovingOnShapes/607903841_773080071_2957270253.mp4'
+file 'file:D:/COURSES/python/code/Forier_Transform/media/videos/Forier_Transform/480p15/partial_movie_files/PointMovingOnShapes/607903841_2067970060_2929077191.mp4'
+file 'file:D:/COURSES/python/code/Forier_Transform/media/videos/Forier_Transform/480p15/partial_movie_files/PointMovingOnShapes/607903841_1415574386_604542013.mp4'
