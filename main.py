@@ -1,6 +1,10 @@
 from manim import *
 import numpy as np
 
+import svgpathtools
+from svgpathtools import *
+import regex as re
+
 
 class FourierVis(VMobject):
 
@@ -75,16 +79,51 @@ class CreateFourier(Scene):
             path = VMobject()
             for sp in Tex(tex).family_members_with_points():
                 path.append_points(sp.get_points())
-            return path
+                complex_points = np.array(
+                    [complex(*path.point_from_proportion(alpha)[:2]) for alpha in np.arange(0, 1, 1 / N)]) * 16
+
+            return complex_points
 
         def get_shape_from_svg():
-            pass
+            fname = r'src\skull.svg'
+            paths, attributes = svg2paths(fname)
+            complex_points = []
+            for path, attr in zip(paths, attributes):
+                myPathList = []
+                pathLength = path.length()
+                numSamples = int(pathLength * 1)
+                for i in range(numSamples):
+                    # myPathList.append(path.point(path.ilength(pathLength * i / (numSamples - 1))))
+                    complex_points.append(path.point(path.ilength(pathLength * i / (numSamples - 1))))
+
+
+            return complex_points
 
         tex = r"$\Lambda$"
-        path = get_shape_from_Tex(tex)
-        complex_points = np.array(
-            [complex(*path.point_from_proportion(alpha)[:2]) for alpha in np.arange(0, 1, 1 / N)]) * 16
+        complex_points = np.array(get_shape_from_svg())
 
+        complex_points = (complex_points - np.mean(complex_points)) / np.max(abs(complex_points)) * 4
         sh = FourierVis(complex_points, num_coeffs=50)
         self.add(sh)
-        self.wait(2 * TAU)
+        self.wait(3 * TAU)
+
+
+def get_shape_from_svg():
+    fname = r'src\skull.svg'
+    paths, attributes = svg2paths(fname)
+    print(attributes)
+    myPaths = []
+    for path, attr in zip(paths, attributes):
+        myPathList = []
+        pathLength = path.length()
+        # pathColour = attr['stroke']
+        numSamples = int(pathLength * 1)
+        for i in range(numSamples):
+            # parametric length = ilength(geometric length)
+            myPathList.append(path.point(path.ilength(pathLength * i / (numSamples - 1))))
+            # myPaths.append(np.array(myPathList))
+
+    return myPathList
+
+
+# print(get_shape_from_svg())
