@@ -1,4 +1,4 @@
-# Fourier_Cycles
+# Fourier Cycles
 
 - It is the first time I use Manim CE 
 - The NoteBook contains some basic Examples of Scenes
