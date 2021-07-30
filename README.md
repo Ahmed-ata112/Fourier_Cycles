@@ -6,17 +6,17 @@
 ### The Project
 - Inspired By [3b1b Video about Fourier Series](https://youtu.be/r6sGWTCMz2k)
 
-### Gallery
+## Gallery
 
 
-## Latex
+### Latex
 ![gif](assets/Lambda2.gif "Lambda")
 
 ![gif](assets/psi2.gif "Psi")
 
 ![gif](assets/Sigma2.gif "Sigma")
 
-## .svg 
+### .svg 
 
 Source          |  Rendered gif
 :------------------:|:-------------------------:
